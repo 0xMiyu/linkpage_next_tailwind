@@ -22,18 +22,18 @@ export default function Home() {
           <h1 className='inline-block p-2'>hi, I'm Miyu</h1>
         </header>
 
-        <ul className='border-5 border-white w-28 text-center'>
-          <li className='bg-black'>
+        <ul className='font-mono text-xl table m-auto border-5 border-white w-32 text-center'>
+          <li className='bg-black m-2 rounded-lg'>
             <a href="https://github.com/0xmiyu" target="_blank"> Github </a>
           </li>
-          <li>
+          <li className='bg-black m-2 rounded-lg'>
             <a href="https://www.linkedin.com/in/martinongyj/" target="_blank"> LinkedIn </a>
           </li>
-          <li>
+          <li className='bg-black m-2 rounded-lg'>
            <a href="https://martinongyj.com" target="_blank"> Website </a>
-          </li>
-          <li>
-            <a href="./images/Martin Ong's Resume.pdf" download> Resume Download </a>
+          </li >
+          <li className='bg-black m-2 rounded-lg'>
+            <a href="./images/Martin Ong's Resume.pdf" download> Resume </a>
           </li>
         </ul>
 

@@ -1,10 +1,17 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import { BsGithub, BsLinkedin, BsTelegram, BsTwitter } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsTelegram, BsTwitter, BsWhatsapp } from "react-icons/bs";
 import {AiOutlineMail} from "react-icons/ai"
 
 const inter = Inter({ subsets: ["latin"] });
+
+const GITHUB_LINK = "https://github.com/0xmiyu"
+const LINKEDIN_LINK = "https://www.linkedin.com/in/martinongyj/" 
+const TWITTER_LINK = "https://twitter.com/0xmiyu"
+const TELEGRAM_LINK = "https://t.me/miyu_sol"
+const WHATSAPP_LINK = "https://wa.me/6597114549"
+const EMAIL_LINK = "mailto:ong.martin24@gmail.com"
 
 export default function Home() {
     return (
@@ -38,7 +45,7 @@ export default function Home() {
                                 <BsGithub className="ml-auto" />
 
                                 <a
-                                    href="https://github.com/0xmiyu"
+                                    href={GITHUB_LINK}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex-1 text-center"
@@ -51,7 +58,7 @@ export default function Home() {
                             <div className="flex items-center">
                                 <BsLinkedin className="ml-auto" />
                                 <a
-                                    href="https://www.linkedin.com/in/martinongyj/"
+                                    href={LINKEDIN_LINK}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex-1 text-center"
@@ -65,7 +72,7 @@ export default function Home() {
                             <div className="flex items-center">
                                 <BsTwitter className="ml-auto" />
                                 <a
-                                    href="https://twitter.com/0xmiyu"
+                                    href={TWITTER_LINK}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex-1 text-center"
@@ -78,7 +85,7 @@ export default function Home() {
                             <div className="flex items-center">
                                 <BsTelegram className="ml-4" />
                                 <a
-                                    href="https://t.me/miyu_sol"
+                                    href={TELEGRAM_LINK}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex-1 text-center"
@@ -87,11 +94,24 @@ export default function Home() {
                                 </a>
                             </div>
                         </li>
+                        <li className="p-3 mb-4 bg-gray-800 rounded-3xl hover:bg-gray-300 hover:text-black">
+                            <div className="flex items-center">
+                                <BsWhatsapp className="ml-4" />
+                                <a
+                                    href={WHATSAPP_LINK}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex-1 text-center"
+                                >
+                                    Whatsapp
+                                </a>
+                            </div>
+                        </li>
                         <li className="p-3 mb-2 bg-gray-800 rounded-3xl hover:bg-gray-300 hover:text-black">
                             <div className="flex items-center">
                                 <AiOutlineMail className="ml-4" />
                                 <a
-                                    href="mailto:ong.martin24@gmail.com"
+                                    href={EMAIL_LINK}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex-1 text-center"

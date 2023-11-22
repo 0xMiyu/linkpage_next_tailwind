@@ -11,7 +11,7 @@ const LINKEDIN_LINK = "https://www.linkedin.com/in/martinongyj/"
 const TWITTER_LINK = "https://twitter.com/0xmiyu"
 const TELEGRAM_LINK = "https://t.me/miyu_sol"
 const WHATSAPP_LINK = "https://wa.me/6597114549"
-const EMAIL_LINK = "mailto:ong.martin24@gmail.com"
+const EMAIL_LINK = "mailto:martin@zephyrlabs.ai"
 
 export default function Home() {
     return (
@@ -32,7 +32,7 @@ export default function Home() {
             <main>
                 <header className="flex flex-col items-center text-white text-center">
                     <img
-                        src="/madlads.png"
+                        src="/Ghion.png"
                         className="w-36 rounded-full border-2 border-white mt-10"
                     />
                     <h1 className="inline-block pt-1 pb-5">hi, I&apos;m Martin</h1>
@@ -68,7 +68,7 @@ export default function Home() {
                             </div>
                         </li>
                         
-                        <li className="p-3 mb-4 mx-4 bg-black rounded-lg hover:bg-gray-300 hover:text-black">
+                        {/* <li className="p-3 mb-4 mx-4 bg-black rounded-lg hover:bg-gray-300 hover:text-black">
                             <div className="flex items-center">
                                 <BsTwitter className="ml-auto" />
                                 <a
@@ -80,7 +80,7 @@ export default function Home() {
                                     Twitter
                                 </a>
                             </div>
-                        </li>
+                        </li> */}
                         <li className="p-3 mb-4 bg-gray-800 rounded-3xl hover:bg-gray-300 hover:text-black">
                             <div className="flex items-center">
                                 <BsTelegram className="ml-4" />

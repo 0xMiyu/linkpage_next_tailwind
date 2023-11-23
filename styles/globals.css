@@ -109,3 +109,28 @@ a {
     color-scheme: dark;
   }
 }
+
+/* @keyframes gradientBG {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(60deg, #607d8b,  #37474f, #263238);
+  background-size: 600% 600%;
+  animation: gradientBG 15s ease infinite;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
+

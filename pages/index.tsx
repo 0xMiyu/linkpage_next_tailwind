@@ -10,7 +10,7 @@ const GITHUB_LINK = "https://github.com/0xmiyu"
 const LINKEDIN_LINK = "https://www.linkedin.com/in/martinongyj/" 
 const CAL_LINK = "https://cal.com/martin-zephyr"
 const TWITTER_LINK = "https://twitter.com/0xmiyu"
-const TELEGRAM_LINK = "https://t.me/miyu_sol"
+const TELEGRAM_LINK = "https://t.me/zephyr_miyu"
 const WHATSAPP_LINK = "https://wa.me/6597114549"
 const EMAIL_LINK = "mailto:martin@zephyrlabs.ai"
 
